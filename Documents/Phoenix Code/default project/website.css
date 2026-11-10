@@ -1,0 +1,38 @@
+*{
+    padding: none;
+    margin: none;
+    font-family: sans-serif;
+    box-sizing: border-box;
+    line-height: 1.3;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    background-color: darkgray;
+}
+footer{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: auto;
+    background-color: black;
+    padding: 30px  12%;
+}
+.footer.two:active{
+    color: darkkhaki;
+}
+ul{
+    list-style: armenian;
+}
+.footer{
+    width: 30%;
+}
+.footer h3{
+    position: relative;
+    margin-top: 40px;
+    font-weight: 350px;
+    font-size: 23;
+    color: orange;
+    text-transform: capitalize;
+    margin-bottom: 15px;
+}
